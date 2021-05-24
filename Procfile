@@ -1,1 +1,1 @@
-web: gunicorn main:mask-d-app --log-file=-
+web: sh setup.sh && streamlit run idl.py
